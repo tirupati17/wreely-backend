@@ -1,0 +1,18 @@
+{
+    "require": {
+        "twilio/sdk" : ">=4.2.1",
+        "setasign/fpdf": "1.8.1",
+        "phpunit/phpunit": "3.7.*",
+        "mandrill/mandrill" : "1.0.*",
+        "kreait/firebase-php": "^3.7.0",
+        "pepipost/pepipost-mandrill-sdk-php": "dev-master"
+    },
+    "scripts": {
+        "post-install-cmd": [
+          "bower install"
+        ],
+        "post-update-cmd": [
+          "bower install"
+        ]
+    }
+}

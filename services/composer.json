@@ -1,0 +1,20 @@
+{
+    "repositories": [
+        {
+          "type": "git",
+          "url": "https://github.com/karixtech/karix-php.git"
+        }
+      ],
+    "require": {
+        "aporat/store-receipt-validator": "dev-master",
+        "facebook/php-sdk-v4": "~5.0",
+        "slim/slim" : "~2.0",
+        "twilio/sdk" : ">=5.19.6",
+        "stripe/stripe-php" : "~3.6.0",
+        "mandrill/mandrill" : "1.0.*",
+        "phpunit/phpunit": "^5.7",
+        "laravel/installer" : "~1.1",
+        "nexmo/client": "@beta",
+        "karixtech/karix-php": "0.0.1"
+    }
+}

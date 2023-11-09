@@ -1,0 +1,28 @@
+{
+  "name": "wreely",
+  "authors": [
+    "Tirupati Balan <tirupati@tirupatibalan.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "www.wreely.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "datatables.net": "^1.10.16",
+    "datatables.net-buttons": "^1.4.2",
+    "moment": "^2.19.3",
+    "datatables.net-bs4": "^3.2.2",
+    "datatables.net-buttons-bs4": "^1.4.2",
+    "datatables.net-bs": "^2.1.1",
+    "datatables.net-buttons-bs": "^1.4.2",
+    "jszip": "Stuk/jszip#^3.1.5",
+    "pdfmake": "^0.1.34"
+  }
+}
